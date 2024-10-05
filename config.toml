@@ -1,0 +1,21 @@
+w# https://doc.rust-lang.net.cn/cargo/reference/config.html
+# This is config for cargo
+# you could move it to $CARGO_HOME/.cargo/config.toml
+# default path is $HOME/.cargo/config.toml
+[alias]
+# https://cargo-generate.github.io/cargo-generate/usage/index.html
+#TODO - install cargo-generate and delete this line
+gen = ["generate --git https://github.com/King-sj/rust_template.git"]
+g = "gen"
+i = "install"
+b = "build"
+c = "check"
+t = "test"
+r = "run"
+rr = "run --release"
+p = "publish"
+[env]
+# Set ENV_VAR_NAME=value for any process run by Cargo
+#TODO - Set your name
+CARGO_PKG_AUTHORS = "your_name"
+CARGO_PKG_LICENSE = "MPL-2.0"

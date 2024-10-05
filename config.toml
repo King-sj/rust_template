@@ -1,4 +1,4 @@
-w# https://doc.rust-lang.net.cn/cargo/reference/config.html
+# https://doc.rust-lang.net.cn/cargo/reference/config.html
 # This is config for cargo
 # you could move it to $CARGO_HOME/.cargo/config.toml
 # default path is $HOME/.cargo/config.toml

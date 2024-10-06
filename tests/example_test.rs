@@ -4,5 +4,5 @@ use rust_template::add::*;
 #[test]
 fn it_adds_two() {
   add();
-  assert_eq!(4, 2+2);
+  assert_eq!(4, 2 + 2);
 }

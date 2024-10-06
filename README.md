@@ -117,6 +117,7 @@ First of all, you need to make sure that `rustc` and `cargo` are installed. If n
 
 main.rs should not contain too much content, only serving as the entry point of the program. lib.rs should only expose module interfaces, with actual functionality implemented in each module.
 
+Remember to replace `README.md` with `BLANK_README.md`.
 _For more information, please refer to the [Documentation](https://course.rs/about-book.html)_
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>

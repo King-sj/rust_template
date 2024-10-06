@@ -19,3 +19,6 @@ p = "publish"
 #TODO - Set your name
 CARGO_PKG_AUTHORS = "your_name"
 CARGO_PKG_LICENSE = "MPL-2.0"
+
+[build]
+rustc = "rustc"

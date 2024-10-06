@@ -19,7 +19,7 @@
   <p align="center">
     A rust template
     <br />
-    <a href="https://github.com/King-sj/rust_template"><strong>Explore the docs »</strong></a>
+    <a href="https://course.rs/"><strong>Explore the docs »</strong></a>
     <br />
     <br />
     <a href="https://github.com/King-sj/rust_template">View Demo</a>

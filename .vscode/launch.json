@@ -6,7 +6,8 @@
       "name": "Launch Rust Program",
       "program": "${workspaceFolder}/target/debug/${input:executableName}",
       "args": [],
-      "cwd": "${workspaceFolder}"
+      "cwd": "${workspaceFolder}",
+      "preLaunchTask": "cargo build"
     }
   ],
   "inputs": [

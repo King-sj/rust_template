@@ -1,0 +1,19 @@
+{
+  "configurations": [
+    {
+      "type": "lldb",
+      "request": "launch",
+      "name": "Launch Rust Program",
+      "program": "${workspaceFolder}/target/debug/${input:executableName}",
+      "args": [],
+      "cwd": "${workspaceFolder}"
+    }
+  ],
+  "inputs": [
+    {
+      "type": "promptString",
+      "id": "executableName",
+      "description": "Name of your executable"
+    }
+  ]
+}
